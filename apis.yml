@@ -1,8 +1,24 @@
 aid: iptronics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/iptronics.png
 name: IPtronics
-description: 'IPtronics is a company surfaced as a portfolio company of creandum and added to the API
-  Evangelist network as a stub for enrichment. Sector: other. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'IPtronics A/S was a fabless semiconductor company founded in 2003 in Copenhagen, Denmark,
+  designing integrated circuits (laser drivers, transimpedance amplifiers, and CMOS ICs) for parallel
+  optical interconnects used in high-speed computing, storage, and datacenter communications. Backed by
+  Creandum, Sunstone, and 10i10, the company was acquired by Mellanox Technologies in 2013 (now part of
+  NVIDIA) and no longer operates as an independent entity. It is a hardware chip vendor with no public
+  API, developer portal, SDK, or programmatic surface; the former iptronics.com domain now redirects to
+  NVIDIA Networking. Retained in the API Evangelist network as a VC-portfolio identity record only.'
 url: https://raw.githubusercontent.com/api-evangelist/iptronics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +26,30 @@ x-backed-by:
 - creandum
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: mellanox
+x-acquired-year: '2013'
+x-no-api-surface: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Other
+- Semiconductors
+- Photonics
+- Optical Interconnects
+- Hardware
+- Datacenter
+- Denmark
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
