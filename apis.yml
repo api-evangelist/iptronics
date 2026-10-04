@@ -50,7 +50,7 @@ tags:
 - Photonics
 - Optical Interconnect
 - Hardware
-- Data-Center
+- Data Center
 - Denmark
 - Acquired
 tags_raw:
@@ -62,6 +62,7 @@ tags_raw:
 - Datacenter
 - Denmark
 - Acquired
+- Data-Center
 apis: []
 maintainers:
 - FN: Kin Lane
